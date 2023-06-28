@@ -1,0 +1,24 @@
+{
+    "require": { 
+        "thefunpower/db_medoo": "dev-main",
+        "thefunpower/think": "dev-main",
+        "thefunpower/helper": "dev-main", 
+        "thefunpower/sony_flake_id": "dev-main",  
+        "phpseclib/phpseclib": "^2.0",
+        "thefunpower/vue": "^2"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "repositories": [
+        {
+            "packagist": false
+        },
+        {
+            "type": "composer",
+            "url": "https://packagist.org"
+        }
+    ]
+}
